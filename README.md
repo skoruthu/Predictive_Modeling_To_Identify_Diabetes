@@ -30,7 +30,7 @@ Overall, there were over 83 original features and 10,175 individual rows, which 
 
 ### Impact from Findings
 Performance Comparison in Dollars were measured by adopting ‘Expected Claim (EC)’ framework to assess three conditions:<br>
-(1) Perfect Classifier: This ideal model classifies all observations correctly. Plugging some values into the EC formula, the expected claims value would be $5,575.70. Performance will be judged based on the difference from this base value.<br>
+(1) Perfect Classifier: This ideal model classifies all observations correctly. Plugging values into the EC formula for 2962 individuals, the expected claims value would be $5,575.70. Performance will be judged based on the difference from this base value.<br>
 (2) Current Method: The current standard yields an EC value of $6075.37.<br>
 (3) Our Model: XGBoost run with tuned settings yields an EC value of $5,778.13.<br>
 
